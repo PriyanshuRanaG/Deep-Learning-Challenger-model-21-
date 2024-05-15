@@ -34,3 +34,11 @@ To optimize the hyperparameters such as the number of neurons, number of layers,
 4)Run the Hyperparameter Search: Execute the search to find the best hyperparameters.
 
 5)Retrieve and Train the Best Model: Get the best hyperparameters and train the final model with these settings.
+## Conclusion
+The model was able to achieve 0.745 accuracy, which is marginally below the intended 0.75 accuracy. With 0.5387 Loss.  
+
+## Recomendations
+Start with Logistic Regression as a baseline to understand the data and set a performance benchmark.
+Experiment with Random Forests and Gradient Boosting Machines to leverage their ensemble power and ability to handle complex patterns.
+Use SVMs if the data is high-dimensional and you seek robust classification boundaries.
+By comparing the results from these alternative models with the deep learning model, you can identify the most effective approach for solving your classification problem. This multi-model evaluation ensures that you choose the best-performing model based on empirical evidence.
