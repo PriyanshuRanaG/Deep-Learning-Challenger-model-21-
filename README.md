@@ -11,10 +11,15 @@ The data was then split into two subsets; a training set and a testing set. The 
 
 ## Model Architecture
 Number of Input Features: The model takes in number_input_features, which is equal to the number of features in X_train.
+
 Hidden Layers: The model has three hidden layers with the following configurations:
+
 First hidden layer: 65 neurons, tanh activation function
+
 Second hidden layer: 97 neurons, tanh activation function
+
 Third hidden layer: 65 neurons, tanh activation function
+
 Output Layer: The model has one output neuron with a sigmoid activation function, suitable for binary classification.
 
 ## Hyperparameter Tuning Using Keras Tuner
