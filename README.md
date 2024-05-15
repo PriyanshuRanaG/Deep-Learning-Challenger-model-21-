@@ -1,4 +1,3 @@
-# Deep-Learning-Challenger-model-21-
 ## Deep Learning Model Analysis Report.
 This report presents the development and evaluation of a neural network model designed to predict whether an applicant for funding will be successful in their ventures. This model has been created for the nonprofit foundation Alphabet Soup
 
@@ -34,6 +33,7 @@ To optimize the hyperparameters such as the number of neurons, number of layers,
 4)Run the Hyperparameter Search: Execute the search to find the best hyperparameters.
 
 5)Retrieve and Train the Best Model: Get the best hyperparameters and train the final model with these settings.
+
 ## Conclusion
 The model was able to achieve 0.745 accuracy, which is marginally below the intended 0.75 accuracy. With 0.5387 Loss.  
 
